@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(207, 201, 193); opacity:4;    
+    background-image: url("images/img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-attachment: fixed;
+    
+
+}
+
+h1{
+    color: rgb(163, 163, 163);
+    text-align: center;
+    font-size: 50px; font-variant: small-caps; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-display: 
+    margin: 0;
+}
+
+#Box {
+    margin: auto; 
+    width:  70%;
+    border: 2px ;opacity: 9; border-radius: 20px; 
+    background-color: aqua; opacity:0.6;
+    height: 70px;
+        
+}
+#container{
+    margin: 0 200px 0 200px;
+    background-color: #bec8280e
+
+    padding: 50px;
+
+}
+#theo{
+    color: rosybrown;
+    text-emphasis: 25;
+    text-decoration-line: underline;
+    margin-bottom: 0;
+
+}
+.th{font-style:italic; color: coral;
+
+}
+.container {
+    /* float: left; */
+    /* padding-bottom: 15px;margin: 5% 20% 0 20%; border: 50px; */
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    width: 70%;
+ }
+
+ input[type="text"] {
+    background-color: #fa181800;
+    width: 200px;
+    height: 20px;
+    border:0px solid;
+    border-bottom-color :#009900; /* Green */
+    border-bottom: 2px solid;
+    border-color: azure ;
+    outline: 0px;
+ }
+ /* input[type="text"]:focus {  */
+    /* outline: none !important; */
+    /* border-color: #719ECE; */
+    /* box-shadow: 0 0 10px #719ECE; */
+
+input[type="submit"] {
+        background-color: white; opacity: 0.8;
+        border: 0; solid crimson; 
+        outline: 0px;
+        border height: 20px;
+        border-radius: 30px;
+        padding:5px;
+        width: 300px;
+    }
+
+    #yin > ul {
+    /* grid styles */
+    display: grid;
+    grid-template-columns: 320px 320px;
+    grid-template-rows: 1fr 1fr;
+    /* units for row and column gaps
+     only available in px */
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+
+}
+#yin {display: grid;
+    grid-template-columns: 320px 320px;
+    grid-template-rows: 1fr 1fr;
+    color: blanchedalmond;
+
+}
+
+#yn:before {
+    content: "FOFX ACADEMY";
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.xyz {
+    margin:3% 15% 30% 30%;
+    /* padding: 0% 3% 2% 5%; */
+    /* max-height: 100%; */
+    /* margin: auto; */
+    /* width: 70%;   */
+}
+
+h3 {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif
+    
+}
+
